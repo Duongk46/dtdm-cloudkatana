@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "functionAppName": {
+          "value": "<UNIQUE_NAME_FUNCTION_APPLICATION>"
+      },
+      "identityId": {
+        "value": "<IDENTITY_USED_TO_CREATE_APPLICATIONS>"
+      },
+      "assignAppRoleToUser": {
+        "value": "<USER_NAME@DOMAIN.COM>"
+      }
+    }
+}

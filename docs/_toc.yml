@@ -1,0 +1,20 @@
+format: jb-book
+root: intro
+parts:
+- caption: Getting Started
+  chapters:
+  - file: deploy/azure/intro
+    sections:
+    - file: deploy/azure/arm
+- caption: Internals
+  chapters:
+  - file: learn/principles/intro
+  - file: learn/schema
+  - file: learn/simulation
+- caption: Notebook Campaigns
+  chapters:
+  - file: simulate/azure/intro
+    sections:
+    - file: simulate/azure/attackscenario-7dde2208-d4eb-480e-afa1-bad0ab7e861b
+    - file: simulate/azure/attackscenario-7d918ee0-6928-48c5-8cf9-5dfb88abc7c4
+    - file: simulate/azure/attackscenario-81b67a16-5218-41e6-8c6d-1fc6a10b757a

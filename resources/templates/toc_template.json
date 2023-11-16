@@ -1,0 +1,37 @@
+{
+    "format" : "jb-book",
+    "root" : "intro",
+    "parts" : [
+        {
+            "caption" : "Getting Started",
+            "chapters" : [
+                {
+                    "file" : "deploy/azure/intro",
+                    "sections": [
+                        {
+                            "file" : "deploy/azure/arm"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "caption": "Internals",
+            "chapters": [
+                {
+                    "file" : "learn/principles/intro"
+                },
+                {
+                    "file" : "learn/schema"
+                },
+                {
+                    "file" : "learn/simulation"
+                }
+            ]
+        },
+        {
+            "caption" : "Notebook Campaigns",
+            "chapters" : []
+        }
+    ]
+}
